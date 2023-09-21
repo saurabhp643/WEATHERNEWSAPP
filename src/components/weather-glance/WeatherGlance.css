@@ -1,0 +1,146 @@
+.weatherInfoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 50px 20px 50px;
+  width: 100vw;
+}
+
+.weatherInfoLogo {
+  height: 150px;
+}
+
+.cityName {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.374px;
+  color: #2c013d;
+  text-align: center;
+}
+
+.temperatureMain {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: 0.374px;
+  color: #2c013d;
+  text-align: center;
+}
+
+.weatherStatsWrapper {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.weatherIcon {
+  margin-right: 10px;
+}
+
+.weatherOverview {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: rgba(63, 11, 63, 0.6);
+  text-align: center;
+}
+
+.temperatureHighLow {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #2c013d;
+  text-align: center;
+}
+
+.houseLogo {
+  height: auto;
+}
+
+.dateWrapper {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: "50%";
+}
+
+.weatherWrapper {
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.cityWrapper {
+  width: 300px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .weatherInfoWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .weatherTileWrapper {
+    height: 65px;
+    width: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.25),
+      inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+  }
+  .tileLogo {
+    height: 15px;
+  }
+  .miniTemp {
+    font-size: 10px;
+  }
+  .weatherInfoLogo {
+    height: 80px;
+  }
+  .temperatureMain {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .cityName {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .cityWrapper {
+    width: 150px;
+  }
+  .weatherOverview {
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .temperatureHighLow {
+    font-size: 9px;
+    line-height: 14px;
+  }
+  .weatherStatsWrapper {
+    margin-top: 20px;
+  }
+}

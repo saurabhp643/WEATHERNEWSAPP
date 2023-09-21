@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+.footerWrapper {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Comfortaa", cursive;
+}
+.weatherCardTitle{
+  font-family: "Comfortaa", cursive;
+}
